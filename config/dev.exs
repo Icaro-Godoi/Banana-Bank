@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :banana_bank, BananaBank.Repo,
   username: "postgres",
-  password: "xcc3840_z",
+  password: "postgres",
   hostname: "localhost",
   database: "banana_bank_dev",
   stacktrace: true,
