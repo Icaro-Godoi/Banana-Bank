@@ -19,6 +19,5 @@ defmodule BananaBank.Accounts.Account do
     |> validate_required(@required_params)
     |> check_constraint(:balance, name: :balance_not_negative)
     |> unique_constraint(:user_id, name: :user_id_index)
-    |> foreign_key_constraint(:user_id)
   end
 end
