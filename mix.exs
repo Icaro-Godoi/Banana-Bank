@@ -42,6 +42,7 @@ defmodule BananaBank.MixProject do
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.1.1"},
       {:bandit, "~> 1.2"},
+      {:esbuild, "~> 0.8.1"},
       {:pbkdf2_elixir, "~> 2.0"},
       {:ex_machina, "~> 2.7.0", only: :test},
       {:tesla, "~> 1.9"},
